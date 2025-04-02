@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EjercicioOpcional" time="81.303" tests="2" failures="1" errors="0">
+   <testsuite name="EjercicioOpcional" tests="2" failures="1" errors="0" time="81.303" skipped="0" timestamp="02-04-2025T10:58:15" hostname="danielafeoli - localhost" id="Test Suites/EjercicioOpcional">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 9)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813"/>
+         <property name="logFiles" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/execution0.log, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/appium_error.log, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/appium.log"/>
+         <property name="attachments" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/1743602335407.png, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/1743602335996.png"/>
+         <property name="hostName" value="danielafeoli - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;ffec9fec724da725013d5b50e763908113983fc3&quot;,&quot;built&quot;:&quot;2025-03-11 13:39:40 -0700&quot;}}}"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.17.1"/>
+         <property name="deviceModel" value="Android SDK built for arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Test SET banner" time="41.353" classname="Test Cases/Test SET banner" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"version":"/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Test SET banner FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED.&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)&#xa;	at Test SET banner.run(Test SET banner:49)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[02-04-2025T10:58:15 - [TEST_CASE][FAILED] - Test Cases/Test SET banner: Test Cases/Test SET banner FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Test SET banner.run(Test SET banner:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+
+
+02-04-2025T10:58:15 - [TEST_STEP][PASSED] - startApplication(version, true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+02-04-2025T10:58:15 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+02-04-2025T10:58:15 - [MESSAGE][INFO] - Detected NodeJS location: "/Users/danielafeoli/.nvm/versions/node/v22.14.0/bin/node"
+
+02-04-2025T10:58:15 - [MESSAGE][INFO] - PATH: /Users/danielafeoli/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+02-04-2025T10:58:15 - [MESSAGE][INFO] - APPIUM_HOME: /Users/danielafeoli/.appium
+
+02-04-2025T10:58:15 - [MESSAGE][INFO] - appium outlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/appium.log
+
+02-04-2025T10:58:15 - [MESSAGE][INFO] - appium errlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/appium_error.log
+
+02-04-2025T10:58:16 - [MESSAGE][INFO] - Appium server started on port 64 554
+
+02-04-2025T10:58:24 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+02-04-2025T10:58:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis'
+
+02-04-2025T10:58:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis'
+
+02-04-2025T10:58:24 - [TEST_STEP][PASSED] - for (def indexGame : (0..4)): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:24 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:28 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:30 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:33 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:35 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:58:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:38 - [TEST_STEP][PASSED] - for (def indexGame : (0..5)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:38 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:40 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:43 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:45 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:47 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:50 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 1"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:58:52 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:58:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:58:55 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), " SET Jugador 1"): Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Test SET banner.run(Test SET banner:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+)
+
+02-04-2025T10:58:55 - [MESSAGE][FAILED] - Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Test SET banner.run(Test SET banner:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/1743602335407.png]]
+
+02-04-2025T10:58:56 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Test SET banner.run(Test SET banner:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+)
+[[ATTACHMENT|/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250402_105813/EjercicioOpcional/20250402_105813/1743602335996.png]]]]></system-out>
+         <system-err><![CDATA[02-04-2025T10:58:15 - [TEST_CASE][FAILED] - Test Cases/Test SET banner: Test Cases/Test SET banner FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Test SET banner.run(Test SET banner:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test SET banner" time="39.867" classname="Test Cases/Test SET banner" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"version":"/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk"}]]></property>
+         </properties>
+         <system-out><![CDATA[02-04-2025T10:58:56 - [TEST_CASE][PASSED] - Test Cases/Test SET banner: Test Cases/Test SET banner
+
+02-04-2025T10:58:56 - [TEST_STEP][PASSED] - startApplication(version, true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk'
+
+02-04-2025T10:58:56 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk'
+
+02-04-2025T10:59:03 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk'
+
+02-04-2025T10:59:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis'
+
+02-04-2025T10:59:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis'
+
+02-04-2025T10:59:03 - [TEST_STEP][PASSED] - for (def indexGame : (0..4)): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:03 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:07 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:09 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:12 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:14 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 2"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 2'
+
+02-04-2025T10:59:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 2"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:17 - [TEST_STEP][PASSED] - for (def indexGame : (0..5)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:17 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:19 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:21 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:24 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:26 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:28 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), "Game Jugador 1"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:31 - [TEST_STEP][PASSED] - for (def indexPunto : (0..3)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/Boton Jugador 1"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-04-2025T10:59:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/Boton Jugador 1'
+
+02-04-2025T10:59:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/Texto GAME o SET"), " SET Jugador 1"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are matched.
+
+02-04-2025T10:59:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+02-04-2025T10:59:35 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'appinventor.ai_nicholais123.TestingAvanzadoApp12' is still running after 500ms timeout
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [19eefad2-6703-4f44-a2a0-26fb1a64de15, executeScript {script=mobile: terminateApp, args=[{appId=appinventor.ai_nicholais123.TestingAvanzadoApp12, bundleId=appinventor.ai_nicholais123.TestingAvanzadoApp12}]}]
+Capabilities {appium:app: /Users/danielafeoli/Downloa..., appium:appPackage: appinventor.ai_nicholais123..., appium:autoGrantPermissions: true, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/danielafeoli/Downloa..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: ANDROID, platformVersion: 9, systemPort: 64697, udid: emulator-5554}, appium:deviceApiLevel: 28, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:noReset: false, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:systemPort: 64697, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2094, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 19eefad2-6703-4f44-a2a0-26fb1a64de15
+
+02-04-2025T10:59:36 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-04-2025T10:58:15 - [TEST_SUITE][FAILED] - EjercicioOpcional: Test Cases/Test SET banner FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Test SET banner.run(Test SET banner:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[02-04-2025T10:58:15 - [TEST_SUITE][FAILED] - EjercicioOpcional: Test Cases/Test SET banner FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Test SET banner.run(Test SET banner:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743602293638.run(TempTestSuite1743602293638.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/Texto GAME o SET' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

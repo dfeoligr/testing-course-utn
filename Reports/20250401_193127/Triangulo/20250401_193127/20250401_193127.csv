@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Triangulo,,,,01-04-2025 19:31:28,01-04-2025 19:32:49,"1m - 21,073s",FAILED
+,,,,,,,
+Test Cases/Test Triangulo,,,,01-04-2025 19:31:28,01-04-2025 19:31:47,"18,409s",PASSED
+"DATA BINDING - {""ladoC"":""1"",""ladoB"":""1"",""ladoA"":""1""}",,,,,,,
+"startApplication(""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"", true)",,,,01-04-2025 19:31:29,01-04-2025 19:31:38,"9,183s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo""), 0)",,,,01-04-2025 19:31:38,01-04-2025 19:31:38,"0,375s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (1)""), ladoA, 0)",,,,01-04-2025 19:31:38,01-04-2025 19:31:40,"2,268s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (2)""), ladoB, 0)",,,,01-04-2025 19:31:40,01-04-2025 19:31:42,"1,641s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (3)""), ladoC, 0)",,,,01-04-2025 19:31:42,01-04-2025 19:31:44,"1,628s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular""), 0)",,,,01-04-2025 19:31:44,01-04-2025 19:31:44,"0,606s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo""), ""Sí, es un triángulo"")",,,,01-04-2025 19:31:44,01-04-2025 19:31:45,"0,700s",PASSED
+closeApplication(),,,,01-04-2025 19:31:45,01-04-2025 19:31:47,"1,886s",PASSED
+,,,,,,,
+Test Cases/Test Triangulo,,,,01-04-2025 19:31:47,01-04-2025 19:32:33,"46,349s",FAILED
+"DATA BINDING - {""ladoC"":""3"",""ladoB"":""2"",""ladoA"":""1""}",,,,,,,
+"startApplication(""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"", true)",,,,01-04-2025 19:31:47,01-04-2025 19:31:54,"6,768s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo""), 0)",,,,01-04-2025 19:31:54,01-04-2025 19:31:54,"0,607s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (1)""), ladoA, 0)",,,,01-04-2025 19:31:54,01-04-2025 19:31:56,"2,074s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (2)""), ladoB, 0)",,,,01-04-2025 19:31:56,01-04-2025 19:31:58,"1,651s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (3)""), ladoC, 0)",,,,01-04-2025 19:31:58,01-04-2025 19:32:00,"1,631s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular""), 0)",,,,01-04-2025 19:32:00,01-04-2025 19:32:01,"1,229s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo""), ""Sí, es un triángulo"")",,,,01-04-2025 19:32:01,01-04-2025 19:32:33,"32,368s",FAILED
+,,,,,,,
+Test Cases/Test Triangulo,,,,01-04-2025 19:32:33,01-04-2025 19:32:49,"16,160s",PASSED
+"DATA BINDING - {""ladoC"":""5"",""ladoB"":""4"",""ladoA"":""3""}",,,,,,,
+"startApplication(""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"", true)",,,,01-04-2025 19:32:33,01-04-2025 19:32:40,"6,740s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo""), 0)",,,,01-04-2025 19:32:40,01-04-2025 19:32:41,"0,594s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (1)""), ladoA, 0)",,,,01-04-2025 19:32:41,01-04-2025 19:32:43,"2,054s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (2)""), ladoB, 0)",,,,01-04-2025 19:32:43,01-04-2025 19:32:44,"1,667s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (3)""), ladoC, 0)",,,,01-04-2025 19:32:44,01-04-2025 19:32:46,"1,670s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular""), 0)",,,,01-04-2025 19:32:46,01-04-2025 19:32:47,"0,629s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo""), ""Sí, es un triángulo"")",,,,01-04-2025 19:32:47,01-04-2025 19:32:47,"0,705s",PASSED
+closeApplication(),,,,01-04-2025 19:32:47,01-04-2025 19:32:49,"2,079s",PASSED

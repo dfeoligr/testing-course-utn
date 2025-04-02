@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Triangulo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>30365090-cef3-4842-a22d-159a06e31b40</testSuiteGuid>
+   <testCaseLink>
+      <guid>10f9483e-b836-4390-a270-4d8233171647</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Triangulo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cbfb3436-cd1c-4b8c-9ec3-000b9c05f714</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataTriangulo/DataTriangulo</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>cbfb3436-cd1c-4b8c-9ec3-000b9c05f714</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ladoA</value>
+         <variableId>f53dada4-d44f-4b19-bd2e-f7aca4e07cf1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cbfb3436-cd1c-4b8c-9ec3-000b9c05f714</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ladoB</value>
+         <variableId>44e9d82a-b4ce-41fe-860d-c5a301724f24</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cbfb3436-cd1c-4b8c-9ec3-000b9c05f714</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ladoC</value>
+         <variableId>a0c26e8f-955f-41be-82ea-2dd9032cc0b6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

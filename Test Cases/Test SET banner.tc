@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test SET banner</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fdaaf87-5ba7-44cf-83d0-2fdd28d89776</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9b94ca3-b377-463a-b251-51ad0403f3be</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'</defaultValue>
+      <description>Path a la version de apk por probar</description>
+      <id>b9b94ca3-b377-463a-b251-51ad0403f3be</id>
+      <masked>false</masked>
+      <name>version</name>
+   </variable>
+</TestCaseEntity>

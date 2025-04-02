@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DataVersion</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>53015a45-c29e-424f-ba1b-c5c3d3bc3a67</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>%2FUsers%2Fdanielafeoli%2FKatalon+Studio%2FCursoTestingMaster_Avanzado%2FApp%2FTestingAvanzadoApp11.apk</data>
+   <data>%2FUsers%2Fdanielafeoli%2FKatalon+Studio%2FCursoTestingMaster_Avanzado%2FApp%2FTestingAvanzadoApp12.apk</data>
+   <data>null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>version</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

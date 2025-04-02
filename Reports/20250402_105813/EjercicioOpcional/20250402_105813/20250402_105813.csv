@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EjercicioOpcional,,,,02-04-2025 10:58:15,02-04-2025 10:59:36,"1m - 21,303s",FAILED
+,,,,,,,
+Test Cases/Test SET banner,,,,02-04-2025 10:58:15,02-04-2025 10:58:56,"41,353s",FAILED
+"DATA BINDING - {""version"":""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk""}",,,,,,,
+"startApplication(version, true)",,,,02-04-2025 10:58:15,02-04-2025 10:58:24,"9,028s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis""), 0)",,,,02-04-2025 10:58:24,02-04-2025 10:58:24,"0,375s",PASSED
+for (def indexGame : (0..4)),,El jugador 2 gana los primeros 5 GAMES,,02-04-2025 10:58:24,02-04-2025 10:58:38,"13,648s",PASSED
+for (def indexGame : (0..5)),,"El jugador 1 gana 6 GAMES seguidos, no debería de hacer SET porque debe ganar por dos GAMEs de diferencia.",,02-04-2025 10:58:38,02-04-2025 10:58:52,"13,993s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/Texto GAME o SET""), ""Game Jugador 1"")",,,,02-04-2025 10:58:52,02-04-2025 10:58:52,"0,577s",PASSED
+for (def indexPunto : (0..3)),,"El jugador 1 gana 6 GAMES seguidos, no debería de hacer SET porque debe ganar por dos GAMEs de diferencia.",,02-04-2025 10:58:52,02-04-2025 10:58:55,"2,420s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/Texto GAME o SET""), "" SET Jugador 1"")",,,,02-04-2025 10:58:55,02-04-2025 10:58:56,"1,194s",FAILED
+,,,,,,,
+Test Cases/Test SET banner,,,,02-04-2025 10:58:56,02-04-2025 10:59:36,"39,867s",PASSED
+"DATA BINDING - {""version"":""/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk""}",,,,,,,
+"startApplication(version, true)",,,,02-04-2025 10:58:56,02-04-2025 10:59:03,"6,468s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis""), 0)",,,,02-04-2025 10:59:03,02-04-2025 10:59:03,"0,656s",PASSED
+for (def indexGame : (0..4)),,El jugador 2 gana los primeros 5 GAMES,,02-04-2025 10:59:03,02-04-2025 10:59:17,"13,493s",PASSED
+for (def indexGame : (0..5)),,"El jugador 1 gana 6 GAMES seguidos, no debería de hacer SET porque debe ganar por dos GAMEs de diferencia.",,02-04-2025 10:59:17,02-04-2025 10:59:31,"14,286s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/Texto GAME o SET""), ""Game Jugador 1"")",,,,02-04-2025 10:59:31,02-04-2025 10:59:31,"0,072s",PASSED
+for (def indexPunto : (0..3)),,"El jugador 1 gana 6 GAMES seguidos, no debería de hacer SET porque debe ganar por dos GAMEs de diferencia.",,02-04-2025 10:59:31,02-04-2025 10:59:33,"1,829s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/Texto GAME o SET""), "" SET Jugador 1"")",,,,02-04-2025 10:59:33,02-04-2025 10:59:33,"0,558s",PASSED
+closeApplication(),,,,02-04-2025 10:59:33,02-04-2025 10:59:36,"2,488s",PASSED

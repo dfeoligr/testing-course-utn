@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Triangulo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9b1e847-de38-4c5d-ae91-9e62b346e84c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f53dada4-d44f-4b19-bd2e-f7aca4e07cf1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44e9d82a-b4ce-41fe-860d-c5a301724f24</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0c26e8f-955f-41be-82ea-2dd9032cc0b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description>lado A</description>
+      <id>f53dada4-d44f-4b19-bd2e-f7aca4e07cf1</id>
+      <masked>false</masked>
+      <name>ladoA</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>lado B</description>
+      <id>44e9d82a-b4ce-41fe-860d-c5a301724f24</id>
+      <masked>false</masked>
+      <name>ladoB</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description>lado C</description>
+      <id>a0c26e8f-955f-41be-82ea-2dd9032cc0b6</id>
+      <masked>false</masked>
+      <name>ladoC</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.17.1 (REV ffec9fec724da725013d5b50e763908113983fc3)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m49910[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:49910/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:49910/wd/hub (only accessible from the same host)
+	http://192.168.0.221:49910/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@2.45.1 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 6 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"./CursoTestingMaster_Avanzado/App/TestingAvanzadoApp11.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for arm64 - Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"9","appium:systemPort":49909,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"./CursoTestingMaster_Avanzado/App/TestingAvanzadoApp11.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for arm64 - Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"9","appium:systemPort":49909,"appium:udid":"emulator-5554"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/danielafeoli/.appium/node_modules/appium-uiautomator2-driver
+[38;5;83m[AppiumDriver@17d7][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v2.45.1) session
+[38;5;83m[AppiumDriver@17d7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;83m[AppiumDriver@17d7][0m Appium's BaseDriver version is 9.16.4
+[38;5;83m[AppiumDriver@17d7][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;143m[c6dd8e65][0m[38;5;-32m[AndroidUiautomator2Driver@8e2f][0m Session created with session id: c6dd8e65-913d-4f2c-9d19-3ee24b6bde13
+[38;5;143m[c6dd8e65][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/danielafeoli/.katalon/tools/android_sdk' (newest first):
+[38;5;143m[c6dd8e65][0m[38;5;229m[ADB][0m     /Users/danielafeoli/.katalon/tools/android_sdk/build-tools/29.0.3
+[38;5;143m[c6dd8e65][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/danielafeoli/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;143m[c6dd8e65][0m[38;5;-32m[AndroidUiautomator2Driver@8e2f][0m Retrieving device list
+[38;5;143m[c6dd8e65][0m[38;5;-32m[AndroidUiautomator2Driver@8e2f][0m Using device: emulator-5554
+[38;5;143m[c6dd8e65][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/danielafeoli/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;143m[c6dd8e65][0m[38;5;123m[BaseDriver][0m The current application path './CursoTestingMaster_Avanzado/App/TestingAvanzadoApp11.apk' is not absolute and has been rewritten to '/Users/danielafeoli/Katalon Studio/CursoTestingMaster_Avanzado/CursoTestingMaster_Avanzado/App/TestingAvanzadoApp11.apk'. Consider using absolute paths rather than relative
+[38;5;143m[c6dd8e65][0m[38;5;-32m[AndroidUiautomator2Driver@8e2f][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;143m[c6dd8e65][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;143m[c6dd8e65][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;143m[c6dd8e65][0m[38;5;-32m[AndroidUiautomator2Driver@8e2f][0m Restoring hidden api policy to the device default configuration
+[38;5;143m[c6dd8e65][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 874 ms - 926 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"./CursoTestingMaster_Avanzado/App/TestingAvanzadoApp12.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for arm64 - Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"9","appium:systemPort":49941,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"./CursoTestingMaster_Avanzado/App/TestingAvanzadoApp12.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for arm64 - Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"9","appium:systemPort":49941,"appium:udid":"emulator-5554"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/danielafeoli/.appium/node_modules/appium-uiautomator2-driver
+[38;5;83m[AppiumDriver@17d7][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v2.45.1) session
+[38;5;83m[AppiumDriver@17d7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;83m[AppiumDriver@17d7][0m Appium's BaseDriver version is 9.16.4
+[38;5;83m[AppiumDriver@17d7][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;120m[17c52891][0m[38;5;-152m[AndroidUiautomator2Driver@5523][0m Session created with session id: 17c52891-06f2-40f9-a954-ebe51f842aa3
+[38;5;120m[17c52891][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/danielafeoli/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;120m[17c52891][0m[38;5;-152m[AndroidUiautomator2Driver@5523][0m Retrieving device list
+[38;5;120m[17c52891][0m[38;5;-152m[AndroidUiautomator2Driver@5523][0m Using device: emulator-5554
+[38;5;120m[17c52891][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/danielafeoli/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;120m[17c52891][0m[38;5;123m[BaseDriver][0m The current application path './CursoTestingMaster_Avanzado/App/TestingAvanzadoApp12.apk' is not absolute and has been rewritten to '/Users/danielafeoli/Katalon Studio/CursoTestingMaster_Avanzado/CursoTestingMaster_Avanzado/App/TestingAvanzadoApp12.apk'. Consider using absolute paths rather than relative
+[38;5;120m[17c52891][0m[38;5;-152m[AndroidUiautomator2Driver@5523][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;120m[17c52891][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;120m[17c52891][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;120m[17c52891][0m[38;5;-152m[AndroidUiautomator2Driver@5523][0m Restoring hidden api policy to the device default configuration
+[38;5;120m[17c52891][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 387 ms - 926 

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EjercicioOpcional" time="55.714" tests="2" failures="1" errors="0">
+   <testsuite name="EjercicioOpcional" tests="2" failures="1" errors="0" time="55.714" skipped="0" timestamp="01-04-2025T21:16:27" hostname="danielafeoli - localhost" id="Test Suites/EjercicioOpcional">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 9)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625"/>
+         <property name="logFiles" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/execution0.log, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/appium_error.log, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/appium.log"/>
+         <property name="attachments" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/1743553014286.png, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/1743553014869.png"/>
+         <property name="hostName" value="danielafeoli - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;ffec9fec724da725013d5b50e763908113983fc3&quot;,&quot;built&quot;:&quot;2025-03-11 13:39:40 -0700&quot;}}}"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.17.1"/>
+         <property name="deviceModel" value="Android SDK built for arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Set Test" time="27.974" classname="Test Cases/Set Test" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"version":"/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Set Test FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED.&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)&#xa;	at Set Test.run(Set Test:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[01-04-2025T21:16:27 - [TEST_CASE][FAILED] - Test Cases/Set Test: Test Cases/Set Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Set Test.run(Set Test:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+
+
+01-04-2025T21:16:27 - [TEST_STEP][PASSED] - startApplication(version, true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T21:16:27 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T21:16:28 - [MESSAGE][INFO] - Detected NodeJS location: "/Users/danielafeoli/.nvm/versions/node/v22.14.0/bin/node"
+
+01-04-2025T21:16:28 - [MESSAGE][INFO] - PATH: /Users/danielafeoli/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+01-04-2025T21:16:28 - [MESSAGE][INFO] - APPIUM_HOME: /Users/danielafeoli/.appium
+
+01-04-2025T21:16:28 - [MESSAGE][INFO] - appium outlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/appium.log
+
+01-04-2025T21:16:28 - [MESSAGE][INFO] - appium errlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/appium_error.log
+
+01-04-2025T21:16:30 - [MESSAGE][INFO] - Appium server started on port 64 631
+
+01-04-2025T21:16:37 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T21:16:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)'
+
+01-04-2025T21:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)'
+
+01-04-2025T21:16:38 - [TEST_STEP][PASSED] - for (def index : (0..23)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:16:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:16:54 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1"), " SET Jugador 1"): Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Set Test.run(Set Test:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+)
+
+01-04-2025T21:16:54 - [MESSAGE][FAILED] - Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Set Test.run(Set Test:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/1743553014286.png]]
+
+01-04-2025T21:16:55 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Set Test.run(Set Test:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+)
+[[ATTACHMENT|/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_211625/EjercicioOpcional/20250401_211625/1743553014869.png]]]]></system-out>
+         <system-err><![CDATA[01-04-2025T21:16:27 - [TEST_CASE][FAILED] - Test Cases/Set Test: Test Cases/Set Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Set Test.run(Set Test:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Set Test" time="27.615" classname="Test Cases/Set Test" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"version":"/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk"}]]></property>
+         </properties>
+         <system-out><![CDATA[01-04-2025T21:16:55 - [TEST_CASE][PASSED] - Test Cases/Set Test: Test Cases/Set Test
+
+01-04-2025T21:16:55 - [TEST_STEP][PASSED] - startApplication(version, true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk'
+
+01-04-2025T21:16:55 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk'
+
+01-04-2025T21:17:01 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk'
+
+01-04-2025T21:17:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)'
+
+01-04-2025T21:17:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)'
+
+01-04-2025T21:17:02 - [TEST_STEP][PASSED] - for (def index : (0..23)): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T21:17:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.ImageView (1)'
+
+01-04-2025T21:17:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1"), " SET Jugador 1"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are matched.
+
+01-04-2025T21:17:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are matched.
+
+01-04-2025T21:17:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+01-04-2025T21:17:20 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'appinventor.ai_nicholais123.TestingAvanzadoApp12' is still running after 500ms timeout
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c08518ae-6229-4d87-9971-252d5cdc24e4, executeScript {args=[{appId=appinventor.ai_nicholais123.TestingAvanzadoApp12, bundleId=appinventor.ai_nicholais123.TestingAvanzadoApp12}], script=mobile: terminateApp}]
+Capabilities {appium:app: /Users/danielafeoli/Downloa..., appium:appPackage: appinventor.ai_nicholais123..., appium:autoGrantPermissions: true, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/danielafeoli/Downloa..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: ANDROID, platformVersion: 9, systemPort: 64763, udid: emulator-5554}, appium:deviceApiLevel: 28, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:noReset: false, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:systemPort: 64763, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2094, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c08518ae-6229-4d87-9971-252d5cdc24e4
+
+01-04-2025T21:17:23 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-04-2025T21:16:27 - [TEST_SUITE][FAILED] - EjercicioOpcional: Test Cases/Set Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Set Test.run(Set Test:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[01-04-2025T21:16:27 - [TEST_SUITE][FAILED] - EjercicioOpcional: Test Cases/Set Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2872)
+	at Set Test.run(Set Test:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1743552985060.run(TempTestSuite1743552985060.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Game Jugador 1' and expected text ' SET Jugador 1' of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1' are NOT matched.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:55)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

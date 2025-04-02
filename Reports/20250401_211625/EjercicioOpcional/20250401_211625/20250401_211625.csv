@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EjercicioOpcional,,,,01-04-2025 21:16:27,01-04-2025 21:17:23,"55,714s",FAILED
+,,,,,,,
+Test Cases/Set Test,,,,01-04-2025 21:16:27,01-04-2025 21:16:55,"27,974s",FAILED
+"DATA BINDING - {""version"":""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk""}",,,,,,,
+"startApplication(version, true)",,,,01-04-2025 21:16:27,01-04-2025 21:16:37,"10,402s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)""), 0)",,,,01-04-2025 21:16:37,01-04-2025 21:16:38,"0,377s",PASSED
+for (def index : (0..23)),,,,01-04-2025 21:16:38,01-04-2025 21:16:54,"15,801s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1""), "" SET Jugador 1"")",,,,01-04-2025 21:16:54,01-04-2025 21:16:55,"1,254s",FAILED
+,,,,,,,
+Test Cases/Set Test,,,,01-04-2025 21:16:55,01-04-2025 21:17:23,"27,615s",PASSED
+"DATA BINDING - {""version"":""/Users/danielafeoli/Downloads/TestingAvanzadoApp12.apk""}",,,,,,,
+"startApplication(version, true)",,,,01-04-2025 21:16:55,01-04-2025 21:17:01,"6,410s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Contador de tenis (1)""), 0)",,,,01-04-2025 21:17:01,01-04-2025 21:17:02,"0,899s",PASSED
+for (def index : (0..23)),,,,01-04-2025 21:17:02,01-04-2025 21:17:18,"16,025s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.TextView - Game Jugador 1""), "" SET Jugador 1"")",,,,01-04-2025 21:17:18,01-04-2025 21:17:18,"0,086s",PASSED
+closeApplication(),,,,01-04-2025 21:17:18,01-04-2025 21:17:23,"4,178s",PASSED

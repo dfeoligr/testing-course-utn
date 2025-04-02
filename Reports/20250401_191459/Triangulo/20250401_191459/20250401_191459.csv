@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Triangulo,,,,01-04-2025 19:15:01,01-04-2025 19:16:13,"1m - 11,571s",PASSED
+,,,,,,,
+Test Cases/Test Triangulo,,,,01-04-2025 19:15:01,01-04-2025 19:15:22,"20,710s",PASSED
+"DATA BINDING - {""ladoC"":""1"",""ladoB"":""1"",""ladoA"":""1""}",,,,,,,
+"startApplication(""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"", true)",,,,01-04-2025 19:15:01,01-04-2025 19:15:13,"11,440s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo""), 0)",,,,01-04-2025 19:15:13,01-04-2025 19:15:13,"0,412s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (1)""), ""2"", 0)",,,,01-04-2025 19:15:13,01-04-2025 19:15:16,"2,214s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (2)""), ""3"", 0)",,,,01-04-2025 19:15:16,01-04-2025 19:15:17,"1,672s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (3)""), ""2"", 0)",,,,01-04-2025 19:15:17,01-04-2025 19:15:19,"1,637s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular""), 0)",,,,01-04-2025 19:15:19,01-04-2025 19:15:19,"0,646s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo""), ""Sí, es un triángulo"")",,,,01-04-2025 19:15:19,01-04-2025 19:15:20,"0,720s",PASSED
+closeApplication(),,,,01-04-2025 19:15:20,01-04-2025 19:15:22,"1,856s",PASSED
+,,,,,,,
+Test Cases/Test Triangulo,,,,01-04-2025 19:15:22,01-04-2025 19:15:39,"16,870s",PASSED
+"DATA BINDING - {""ladoC"":""3"",""ladoB"":""2"",""ladoA"":""1""}",,,,,,,
+"startApplication(""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"", true)",,,,01-04-2025 19:15:22,01-04-2025 19:15:30,"7,701s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo""), 0)",,,,01-04-2025 19:15:30,01-04-2025 19:15:30,"0,608s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (1)""), ""2"", 0)",,,,01-04-2025 19:15:30,01-04-2025 19:15:32,"1,975s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (2)""), ""3"", 0)",,,,01-04-2025 19:15:32,01-04-2025 19:15:34,"1,645s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (3)""), ""2"", 0)",,,,01-04-2025 19:15:34,01-04-2025 19:15:36,"1,689s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular""), 0)",,,,01-04-2025 19:15:36,01-04-2025 19:15:36,"0,623s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo""), ""Sí, es un triángulo"")",,,,01-04-2025 19:15:36,01-04-2025 19:15:37,"0,767s",PASSED
+closeApplication(),,,,01-04-2025 19:15:37,01-04-2025 19:15:39,"1,841s",PASSED
+,,,,,,,
+Test Cases/Test Triangulo,,,,01-04-2025 19:15:39,01-04-2025 19:15:55,"16,323s",PASSED
+"DATA BINDING - {""ladoC"":""5"",""ladoB"":""4"",""ladoA"":""3""}",,,,,,,
+"startApplication(""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"", true)",,,,01-04-2025 19:15:39,01-04-2025 19:15:46,"7,185s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo""), 0)",,,,01-04-2025 19:15:46,01-04-2025 19:15:47,"0,614s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (1)""), ""2"", 0)",,,,01-04-2025 19:15:47,01-04-2025 19:15:49,"1,999s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (2)""), ""3"", 0)",,,,01-04-2025 19:15:49,01-04-2025 19:15:50,"1,620s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (3)""), ""2"", 0)",,,,01-04-2025 19:15:50,01-04-2025 19:15:52,"1,655s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular""), 0)",,,,01-04-2025 19:15:52,01-04-2025 19:15:53,"0,626s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo""), ""Sí, es un triángulo"")",,,,01-04-2025 19:15:53,01-04-2025 19:15:53,"0,704s",PASSED
+closeApplication(),,,,01-04-2025 19:15:53,01-04-2025 19:15:55,"1,905s",PASSED
+,,,,,,,
+Test Cases/Test Triangulo,,,,01-04-2025 19:15:55,01-04-2025 19:16:13,"17,482s",PASSED
+"DATA BINDING - {""ladoC"":"""",""ladoB"":"""",""ladoA"":""""}",,,,,,,
+"startApplication(""/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk"", true)",,,,01-04-2025 19:15:55,01-04-2025 19:16:02,"6,867s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo""), 0)",,,,01-04-2025 19:16:02,01-04-2025 19:16:03,"0,626s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (1)""), ""2"", 0)",,,,01-04-2025 19:16:03,01-04-2025 19:16:05,"2,020s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (2)""), ""3"", 0)",,,,01-04-2025 19:16:05,01-04-2025 19:16:08,"2,818s",PASSED
+"setText(findTestObject(""TestUTN_Clase25Abr/android.widget.EditText (3)""), ""2"", 0)",,,,01-04-2025 19:16:08,01-04-2025 19:16:09,"1,645s",PASSED
+"tap(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular""), 0)",,,,01-04-2025 19:16:09,01-04-2025 19:16:10,"0,621s",PASSED
+"verifyElementText(findTestObject(""Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo""), ""Sí, es un triángulo"")",,,,01-04-2025 19:16:10,01-04-2025 19:16:11,"0,724s",PASSED
+closeApplication(),,,,01-04-2025 19:16:11,01-04-2025 19:16:13,"2,141s",PASSED

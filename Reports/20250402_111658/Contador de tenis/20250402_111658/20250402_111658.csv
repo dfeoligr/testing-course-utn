@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Contador de tenis,,,,02-04-2025 11:17:00,02-04-2025 11:17:03,"3,772s",FAILED
+,,,,,,,
+Test Cases/Test SET banner,,,,02-04-2025 11:17:00,02-04-2025 11:17:03,"3,246s",FAILED
+"DATA BINDING - {""version"":""./CursoTestingMaster_Avanzado/App/TestingAvanzadoApp11.apk""}",,,,,,,
+"startApplication(version, true)",,,,02-04-2025 11:17:00,02-04-2025 11:17:03,"3,106s",FAILED
+,,,,,,,
+Test Cases/Test SET banner,,,,02-04-2025 11:17:03,02-04-2025 11:17:03,"0,418s",FAILED
+"DATA BINDING - {""version"":""./CursoTestingMaster_Avanzado/App/TestingAvanzadoApp12.apk""}",,,,,,,
+"startApplication(version, true)",,,,02-04-2025 11:17:03,02-04-2025 11:17:03,"0,406s",FAILED

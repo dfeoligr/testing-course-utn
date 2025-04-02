@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Triangulo" time="71.571" tests="4" failures="0" errors="0">
+   <testsuite name="Triangulo" tests="4" failures="0" errors="0" time="71.571" skipped="0" timestamp="01-04-2025T19:15:01" hostname="danielafeoli - localhost" id="Test Suites/Triangulo">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 9)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459"/>
+         <property name="logFiles" value="/Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/execution0.log, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium_error.log, /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="danielafeoli - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;ffec9fec724da725013d5b50e763908113983fc3&quot;,&quot;built&quot;:&quot;2025-03-11 13:39:40 -0700&quot;}}}"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.17.1"/>
+         <property name="deviceModel" value="Android SDK built for arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Test Triangulo" time="20.71" classname="Test Cases/Test Triangulo" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"ladoC":"1","ladoB":"1","ladoA":"1"}]]></property>
+         </properties>
+         <system-out><![CDATA[01-04-2025T19:15:01 - [TEST_CASE][PASSED] - Test Cases/Test Triangulo: Test Cases/Test Triangulo
+
+01-04-2025T19:15:01 - [TEST_STEP][PASSED] - startApplication("/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk", true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:02 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:02 - [MESSAGE][INFO] - Detected NodeJS location: "/Users/danielafeoli/.nvm/versions/node/v22.14.0/bin/node"
+
+01-04-2025T19:15:02 - [MESSAGE][INFO] - PATH: /Users/danielafeoli/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+01-04-2025T19:15:02 - [MESSAGE][INFO] - APPIUM_HOME: /Users/danielafeoli/.appium
+
+01-04-2025T19:15:02 - [MESSAGE][INFO] - appium outlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium.log
+
+01-04-2025T19:15:02 - [MESSAGE][INFO] - appium errlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium_error.log
+
+01-04-2025T19:15:04 - [MESSAGE][INFO] - Appium server started on port 64 834
+
+01-04-2025T19:15:13 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:15:13 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (1)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:16 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:15:16 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (2)"), "3", 0): Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:15:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:17 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:15:17 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (3)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:15:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:19 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:15:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:15:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:15:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo"), "Sí, es un triángulo"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:15:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:15:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+01-04-2025T19:15:21 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'appinventor.ai_nicholais123.TestingAvanzadoApp' is still running after 500ms timeout
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1fcc3bd7-0536-4345-89af-bd45e87c6302, executeScript {args=[{appId=appinventor.ai_nicholais123.TestingAvanzadoApp, bundleId=appinventor.ai_nicholais123.TestingAvanzadoApp}], script=mobile: terminateApp}]
+Capabilities {appium:app: /Users/danielafeoli/Downloa..., appium:appPackage: appinventor.ai_nicholais123..., appium:autoGrantPermissions: true, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/danielafeoli/Downloa..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: ANDROID, platformVersion: 9, systemPort: 64829, udid: emulator-5554}, appium:deviceApiLevel: 28, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:noReset: false, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:systemPort: 64829, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2094, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 1fcc3bd7-0536-4345-89af-bd45e87c6302
+
+01-04-2025T19:15:22 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Triangulo" time="16.87" classname="Test Cases/Test Triangulo" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"ladoC":"3","ladoB":"2","ladoA":"1"}]]></property>
+         </properties>
+         <system-out><![CDATA[01-04-2025T19:15:22 - [TEST_CASE][PASSED] - Test Cases/Test Triangulo: Test Cases/Test Triangulo
+
+01-04-2025T19:15:22 - [TEST_STEP][PASSED] - startApplication("/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk", true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:22 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:23 - [MESSAGE][INFO] - Detected NodeJS location: "/Users/danielafeoli/.nvm/versions/node/v22.14.0/bin/node"
+
+01-04-2025T19:15:23 - [MESSAGE][INFO] - PATH: /Users/danielafeoli/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+01-04-2025T19:15:23 - [MESSAGE][INFO] - APPIUM_HOME: /Users/danielafeoli/.appium
+
+01-04-2025T19:15:23 - [MESSAGE][INFO] - appium outlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium.log
+
+01-04-2025T19:15:23 - [MESSAGE][INFO] - appium errlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium_error.log
+
+01-04-2025T19:15:24 - [MESSAGE][INFO] - Appium server started on port 65 017
+
+01-04-2025T19:15:30 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (1)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:32 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (2)"), "3", 0): Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:15:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:34 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:15:34 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (3)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:15:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:36 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:15:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:15:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:15:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo"), "Sí, es un triángulo"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:15:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+01-04-2025T19:15:38 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'appinventor.ai_nicholais123.TestingAvanzadoApp' is still running after 500ms timeout
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [968a349c-8e38-4566-95ec-b50da8d589f6, executeScript {args=[{appId=appinventor.ai_nicholais123.TestingAvanzadoApp, bundleId=appinventor.ai_nicholais123.TestingAvanzadoApp}], script=mobile: terminateApp}]
+Capabilities {appium:app: /Users/danielafeoli/Downloa..., appium:appPackage: appinventor.ai_nicholais123..., appium:autoGrantPermissions: true, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/danielafeoli/Downloa..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: ANDROID, platformVersion: 9, systemPort: 65014, udid: emulator-5554}, appium:deviceApiLevel: 28, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:noReset: false, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:systemPort: 65014, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2094, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 968a349c-8e38-4566-95ec-b50da8d589f6
+
+01-04-2025T19:15:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Triangulo" time="16.323" classname="Test Cases/Test Triangulo" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"ladoC":"5","ladoB":"4","ladoA":"3"}]]></property>
+         </properties>
+         <system-out><![CDATA[01-04-2025T19:15:39 - [TEST_CASE][PASSED] - Test Cases/Test Triangulo: Test Cases/Test Triangulo
+
+01-04-2025T19:15:39 - [TEST_STEP][PASSED] - startApplication("/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk", true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:39 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:39 - [MESSAGE][INFO] - Detected NodeJS location: "/Users/danielafeoli/.nvm/versions/node/v22.14.0/bin/node"
+
+01-04-2025T19:15:39 - [MESSAGE][INFO] - PATH: /Users/danielafeoli/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+01-04-2025T19:15:39 - [MESSAGE][INFO] - APPIUM_HOME: /Users/danielafeoli/.appium
+
+01-04-2025T19:15:39 - [MESSAGE][INFO] - appium outlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium.log
+
+01-04-2025T19:15:39 - [MESSAGE][INFO] - appium errlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium_error.log
+
+01-04-2025T19:15:41 - [MESSAGE][INFO] - Appium server started on port 65 193
+
+01-04-2025T19:15:46 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:15:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (1)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:15:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:49 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (2)"), "3", 0): Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:50 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (3)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:52 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:15:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:15:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:15:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo"), "Sí, es un triángulo"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:15:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:15:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+01-04-2025T19:15:55 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'appinventor.ai_nicholais123.TestingAvanzadoApp' is still running after 500ms timeout
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [4a023921-930e-4bac-8124-ff6b2469bbf2, executeScript {args=[{appId=appinventor.ai_nicholais123.TestingAvanzadoApp, bundleId=appinventor.ai_nicholais123.TestingAvanzadoApp}], script=mobile: terminateApp}]
+Capabilities {appium:app: /Users/danielafeoli/Downloa..., appium:appPackage: appinventor.ai_nicholais123..., appium:autoGrantPermissions: true, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/danielafeoli/Downloa..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: ANDROID, platformVersion: 9, systemPort: 65190, udid: emulator-5554}, appium:deviceApiLevel: 28, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:noReset: false, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:systemPort: 65190, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2094, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 4a023921-930e-4bac-8124-ff6b2469bbf2
+
+01-04-2025T19:15:55 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Triangulo" time="17.482" classname="Test Cases/Test Triangulo" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"ladoC":"","ladoB":"","ladoA":""}]]></property>
+         </properties>
+         <system-out><![CDATA[01-04-2025T19:15:55 - [TEST_CASE][PASSED] - Test Cases/Test Triangulo: Test Cases/Test Triangulo
+
+01-04-2025T19:15:55 - [TEST_STEP][PASSED] - startApplication("/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk", true): Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:55 - [MESSAGE][INFO] - Starting application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:15:56 - [MESSAGE][INFO] - Detected NodeJS location: "/Users/danielafeoli/.nvm/versions/node/v22.14.0/bin/node"
+
+01-04-2025T19:15:56 - [MESSAGE][INFO] - PATH: /Users/danielafeoli/.nvm/versions/node/v22.14.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+01-04-2025T19:15:56 - [MESSAGE][INFO] - APPIUM_HOME: /Users/danielafeoli/.appium
+
+01-04-2025T19:15:56 - [MESSAGE][INFO] - appium outlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium.log
+
+01-04-2025T19:15:56 - [MESSAGE][INFO] - appium errlog: /Users/danielafeoli/Katalon Studio/My First Web UI Project/Reports/20250401_191459/Triangulo/20250401_191459/appium_error.log
+
+01-04-2025T19:15:57 - [MESSAGE][INFO] - Appium server started on port 65 367
+
+01-04-2025T19:16:02 - [MESSAGE][PASSED] - Started application: '/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk'
+
+01-04-2025T19:16:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:16:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:16:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'
+
+01-04-2025T19:16:03 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (1)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:16:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:16:05 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (1)'
+
+01-04-2025T19:16:05 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (2)"), "3", 0): Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:16:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:16:08 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (2)'
+
+01-04-2025T19:16:08 - [TEST_STEP][PASSED] - setText(findTestObject("TestUTN_Clase25Abr/android.widget.EditText (3)"), "2", 0): Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:16:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:16:09 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText (3)'
+
+01-04-2025T19:16:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular"), 0): Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:16:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-04-2025T19:16:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'
+
+01-04-2025T19:16:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo"), "Sí, es un triángulo"): Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:16:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo' are matched.
+
+01-04-2025T19:16:11 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+01-04-2025T19:16:12 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'appinventor.ai_nicholais123.TestingAvanzadoApp' is still running after 500ms timeout
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6f9b1fd6-3338-48c5-96e4-cb90891d1888, executeScript {args=[{appId=appinventor.ai_nicholais123.TestingAvanzadoApp, bundleId=appinventor.ai_nicholais123.TestingAvanzadoApp}], script=mobile: terminateApp}]
+Capabilities {appium:app: /Users/danielafeoli/Downloa..., appium:appPackage: appinventor.ai_nicholais123..., appium:autoGrantPermissions: true, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/danielafeoli/Downloa..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: ANDROID, platformVersion: 9, systemPort: 65364, udid: emulator-5554}, appium:deviceApiLevel: 28, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:noReset: false, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:systemPort: 65364, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2094, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 6f9b1fd6-3338-48c5-96e4-cb90891d1888
+
+01-04-2025T19:16:13 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-04-2025T19:15:01 - [TEST_SUITE][PASSED] - Triangulo: Test Cases/Test Triangulo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
