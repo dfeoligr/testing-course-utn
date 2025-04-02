@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis'), 0)
+Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Mar/Boton Contador de tenis'), 0)
 
 for (def index : (0..5)) {
     WebUI.callTestCase(findTestCase('Game (Taps)'), [:], FailureHandling.STOP_ON_FAILURE)

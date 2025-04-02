@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Abr/android.widget.Button - Triangulo'), 0)
+Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Mar/android.widget.Button - Triangulo'), 0)
 
-Mobile.setText(findTestObject('TestUTN_Clase25Abr/android.widget.EditText (1)'), ladoA, 0)
+Mobile.setText(findTestObject('TestUTN_Clase25Mar/android.widget.EditText (1)'), ladoA, 0)
 
-Mobile.setText(findTestObject('TestUTN_Clase25Abr/android.widget.EditText (2)'), ladoB, 0)
+Mobile.setText(findTestObject('TestUTN_Clase25Mar/android.widget.EditText (2)'), ladoB, 0)
 
-Mobile.setText(findTestObject('TestUTN_Clase25Abr/android.widget.EditText (3)'), ladoC, 0)
+Mobile.setText(findTestObject('TestUTN_Clase25Mar/android.widget.EditText (3)'), ladoC, 0)
 
-Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Abr/android.widget.Button - Calcular'), 0)
+Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Mar/android.widget.Button - Calcular'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/TestUTN_Clase25Abr/android.widget.EditText - S, es un tringulo'), 
+Mobile.verifyElementText(findTestObject('Object Repository/TestUTN_Clase25Mar/android.widget.EditText - S, es un tringulo'), 
     'Sí, es un triángulo')
 
 Mobile.closeApplication()

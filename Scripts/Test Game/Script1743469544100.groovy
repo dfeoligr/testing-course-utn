@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('/Users/danielafeoli/Downloads/TestingAvanzadoApp11.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Abr/Boton Contador de tenis'), 0)
+Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Mar/Boton Contador de tenis'), 0)
 
 for (def index : (0..3)) {
-    Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Abr/android.widget.ImageView'), 0)
+    Mobile.tap(findTestObject('Object Repository/TestUTN_Clase25Mar/android.widget.ImageView'), 0)
 }
 
 Mobile.closeApplication()
